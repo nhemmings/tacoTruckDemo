@@ -35,3 +35,7 @@ tacoTruck
 
 # Execution working directories
 run/
+
+# IDE dynamic files
+*.depend
+*.layout
