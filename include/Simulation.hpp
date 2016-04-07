@@ -1,7 +1,7 @@
 #ifndef GAME_HPP
 #define GAME_HPP
 
-#include <SFML/Graphics.hpp>
+#include "SFML_include_wrapper.hpp"
 #include "particle.hpp"
 #include "Vector2D.hpp"
 #include "pfgen.hpp"
