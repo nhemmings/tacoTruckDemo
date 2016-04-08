@@ -15,6 +15,11 @@ class Simulation
 private:
     sf::RenderWindow rWindow;
     sf::View mainView;
+    sf::View GUIView;
+
+    sf::Color clearColor;
+    sf::RectangleShape GUIBackground;
+
     const sf::Time frameRate;
     bool isRunning;
 
