@@ -1,0 +1,10 @@
+# After fresh clone of tacoTruckDemo, launch Git Bash in tacoTruckDemo root and run the following commands
+git submodule init
+git submodule update
+
+# To pull upstream changes to submodule, switch to submodule directory and
+git submodule update --remote --merge
+
+# Run git commit and git push from submodule directory
+# To push main project AND submodule changes
+git push --recurse-submodules=on-demand
